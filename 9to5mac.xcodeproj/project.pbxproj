@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF840FDE024672504E1CE8B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3929E72BA247B744088C6193 /* Icon-72.png */; };
+		1BDAEDB8B94C2D114BDD3DFB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528520C5E981D74CBD612533 /* SearchViewController.m */; };
+		530660456BF8A7B813E68678 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B33C723E01864F84462D4CA /* CoreGraphics.framework */; };
+		599524720B256520C4A9BDF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60A17F07E6719F9D8D2D3E7 /* UIKit.framework */; };
+		5DB403F57B657CD6A7D28B99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CBBD9F9D46A02C38D3697A /* Foundation.framework */; };
+		68996EC200301F9BB44F366A /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D403FF57FF3943C2587007 /* ArticleViewController.m */; };
+		6ACC78C05E8D47B0B2D1EFD4 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C807D643B36E9B2EDDF800B /* Settings.m */; };
+		6C9494EC174C88B2B5867336 /* ArticleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 572649048C26FBB1ACAC200D /* ArticleStore.m */; };
+		72B4DAE9126E6EAE7171ABFA /* ArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C8D7CB954793C9298D2B0C /* ArticlesViewController.m */; };
+		72C991C081CBB603D61387FA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BA76ADB64D236D179507A1 /* Icon.png */; };
+		785BEBC44644A353D9505168 /* FeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9A48450506170AE122162 /* FeedParser.m */; };
+		7E1A46280EFEF58BDB4B053D /* ArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8DF93C84D4FC24AE3D90C /* ArticleCell.m */; };
+		7EE7F5AABE8265E69D079D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E5EBE9BEF6666A3A6F21F /* AppDelegate.m */; };
+		7F3970CC05EE55E065404AE8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C85D0F4B7F7B910F8DD3DC83 /* Default-568h@2x.png */; };
+		859BE4C0D58154CDFABE0063 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 669539BDAD0905D68EA53D37 /* Icon@2x.png */; };
+		917937920607178F9116DA1D /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD74176CC2C62F765A4BD639 /* Icon-72@2x.png */; };
+		939C87613E17972FBDE4F0FB /* NewsstandIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A2DF92E121869A99B2897EFD /* NewsstandIcon.png */; };
+		A54489419C0B1AEB59029C7D /* ArticleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E74EB918BD25DEC5EB3A9E0E /* ArticleLoader.m */; };
+		A6F64CDD686B49C6D1D282A1 /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DFB585C296BC2B96E75E7E /* ImageLoader.m */; };
+		A84038C0D3C6E955A81081CF /* NewsstandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BFD519AEB716FA308980FD /* NewsstandKit.framework */; };
+		B9D6C3C2384B635FCFFCC858 /* ArticleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F38AB5F4F47C23E2E36D1057 /* ArticleListViewController.m */; };
+		BE75E98754A2F4B5FA7E5CF8 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A223B6F13C9E0F046E4AE1B0 /* BrowserViewController.m */; };
+		CA92CE9028CCE9DE7D9952F9 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF48BFBD3BEE8B13A7ADF561 /* SettingsViewController.m */; };
+		CD013AC5FA787F6884177DBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DB7F9DA1F6C29C68C46CB3 /* main.m */; };
+		F4F8F61CDE618848EB311886 /* SavedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C16C271A9A10AD2CF76F05B /* SavedViewController.m */; };
+		F5BA323F5A078156FD6FAA05 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = A039A86327B1E4F29106DFEE /* Article.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B8D713DA368541A369DD28 /* SavedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SavedViewController.h; sourceTree = "<group>"; };
+		09BFD519AEB716FA308980FD /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = System/Library/Frameworks/NewsstandKit.framework; sourceTree = SDKROOT; };
+		0A59F66BB30BA1065752AFB2 /* ArticleLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleLoader.h; sourceTree = "<group>"; };
+		170878197C7A85515A74F89F /* ArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
+		1BF82DE594C19B1142B57CFD /* Article.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		1C807D643B36E9B2EDDF800B /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		277A9EA48363BC2676A14BEC /* 9to5mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "9to5mac-Prefix.pch"; sourceTree = "<group>"; };
+		28DB7F9DA1F6C29C68C46CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ACE8621EFD6912A006A82B7 /* ImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
+		2C16C271A9A10AD2CF76F05B /* SavedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SavedViewController.m; sourceTree = "<group>"; };
+		3929E72BA247B744088C6193 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		39D403FF57FF3943C2587007 /* ArticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
+		3B33C723E01864F84462D4CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40C8D7CB954793C9298D2B0C /* ArticlesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticlesViewController.m; sourceTree = "<group>"; };
+		50DFB585C296BC2B96E75E7E /* ImageLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
+		528520C5E981D74CBD612533 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		572649048C26FBB1ACAC200D /* ArticleStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleStore.m; sourceTree = "<group>"; };
+		59C275B43D6A202228BBE466 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		5F7E5EBE9BEF6666A3A6F21F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FF36EEC6B233144F2D2F26F /* ArticlesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticlesViewController.h; sourceTree = "<group>"; };
+		61C4E10B3CFA1818CD5C3F04 /* BrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		63BA76ADB64D236D179507A1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		669539BDAD0905D68EA53D37 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		770C5B730A8FBE3C009C5372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7798FA4FA653FB47DB3A4147 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		7EB7D4732F0E2F112850E4BC /* ArticleStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleStore.h; sourceTree = "<group>"; };
+		89CBBD9F9D46A02C38D3697A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9994A2A00F6A64E2D8E31C61 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		9BF8DF93C84D4FC24AE3D90C /* ArticleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleCell.m; sourceTree = "<group>"; };
+		9D557A21F1DE889BC54808EF /* ArticleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleCell.h; sourceTree = "<group>"; };
+		A039A86327B1E4F29106DFEE /* Article.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		A223B6F13C9E0F046E4AE1B0 /* BrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
+		A2DF92E121869A99B2897EFD /* NewsstandIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewsstandIcon.png; sourceTree = "<group>"; };
+		A461D036AD9E3DD7243DD764 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		A60A17F07E6719F9D8D2D3E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC92404F715A38B7606DFD13 /* ArticleListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleListViewController.h; sourceTree = "<group>"; };
+		AD74176CC2C62F765A4BD639 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		B2ADBE2F907EFCC78000427C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C48AB8D5BFF0E768765219C6 /* FeedParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedParser.h; sourceTree = "<group>"; };
+		C85D0F4B7F7B910F8DD3DC83 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF48BFBD3BEE8B13A7ADF561 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E74EB918BD25DEC5EB3A9E0E /* ArticleLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleLoader.m; sourceTree = "<group>"; };
+		EBC9A48450506170AE122162 /* FeedParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedParser.m; sourceTree = "<group>"; };
+		F38AB5F4F47C23E2E36D1057 /* ArticleListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleListViewController.m; sourceTree = "<group>"; };
+		F5BF48AA40CAD7891EB709FC /* 9to5mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 9to5mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A82E6F678DA6193022955957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB403F57B657CD6A7D28B99 /* Foundation.framework in Frameworks */,
+				599524720B256520C4A9BDF2 /* UIKit.framework in Frameworks */,
+				530660456BF8A7B813E68678 /* CoreGraphics.framework in Frameworks */,
+				A84038C0D3C6E955A81081CF /* NewsstandKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DEFA2DBDC9661815A95F2D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC /* 9to5mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47858B0AAE0CE438CE271C8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89CBBD9F9D46A02C38D3697A /* Foundation.framework */,
+				A60A17F07E6719F9D8D2D3E7 /* UIKit.framework */,
+				3B33C723E01864F84462D4CA /* CoreGraphics.framework */,
+				09BFD519AEB716FA308980FD /* NewsstandKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48372699EE1A572F57F7CBA1 = {
+			isa = PBXGroup;
+			children = (
+				4C217B7E49CE4218A745107D /* 9to5mac */,
+				47858B0AAE0CE438CE271C8D /* Frameworks */,
+				1DEFA2DBDC9661815A95F2D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C217B7E49CE4218A745107D /* 9to5mac */ = {
+			isa = PBXGroup;
+			children = (
+				B2ADBE2F907EFCC78000427C /* AppDelegate.h */,
+				59C275B43D6A202228BBE466 /* Config.h */,
+				1BF82DE594C19B1142B57CFD /* Article.h */,
+				C48AB8D5BFF0E768765219C6 /* FeedParser.h */,
+				2ACE8621EFD6912A006A82B7 /* ImageLoader.h */,
+				7EB7D4732F0E2F112850E4BC /* ArticleStore.h */,
+				9994A2A00F6A64E2D8E31C61 /* Settings.h */,
+				0A59F66BB30BA1065752AFB2 /* ArticleLoader.h */,
+				61C4E10B3CFA1818CD5C3F04 /* BrowserViewController.h */,
+				170878197C7A85515A74F89F /* ArticleViewController.h */,
+				9D557A21F1DE889BC54808EF /* ArticleCell.h */,
+				AC92404F715A38B7606DFD13 /* ArticleListViewController.h */,
+				5FF36EEC6B233144F2D2F26F /* ArticlesViewController.h */,
+				A461D036AD9E3DD7243DD764 /* SearchViewController.h */,
+				01B8D713DA368541A369DD28 /* SavedViewController.h */,
+				7798FA4FA653FB47DB3A4147 /* SettingsViewController.h */,
+				28DB7F9DA1F6C29C68C46CB3 /* main.m */,
+				5F7E5EBE9BEF6666A3A6F21F /* AppDelegate.m */,
+				A039A86327B1E4F29106DFEE /* Article.m */,
+				EBC9A48450506170AE122162 /* FeedParser.m */,
+				50DFB585C296BC2B96E75E7E /* ImageLoader.m */,
+				572649048C26FBB1ACAC200D /* ArticleStore.m */,
+				1C807D643B36E9B2EDDF800B /* Settings.m */,
+				E74EB918BD25DEC5EB3A9E0E /* ArticleLoader.m */,
+				A223B6F13C9E0F046E4AE1B0 /* BrowserViewController.m */,
+				39D403FF57FF3943C2587007 /* ArticleViewController.m */,
+				9BF8DF93C84D4FC24AE3D90C /* ArticleCell.m */,
+				F38AB5F4F47C23E2E36D1057 /* ArticleListViewController.m */,
+				40C8D7CB954793C9298D2B0C /* ArticlesViewController.m */,
+				528520C5E981D74CBD612533 /* SearchViewController.m */,
+				2C16C271A9A10AD2CF76F05B /* SavedViewController.m */,
+				CF48BFBD3BEE8B13A7ADF561 /* SettingsViewController.m */,
+				A2DF92E121869A99B2897EFD /* NewsstandIcon.png */,
+				C85D0F4B7F7B910F8DD3DC83 /* Default-568h@2x.png */,
+				63BA76ADB64D236D179507A1 /* Icon.png */,
+				669539BDAD0905D68EA53D37 /* Icon@2x.png */,
+				3929E72BA247B744088C6193 /* Icon-72.png */,
+				AD74176CC2C62F765A4BD639 /* Icon-72@2x.png */,
+				770C5B730A8FBE3C009C5372 /* Info.plist */,
+				277A9EA48363BC2676A14BEC /* 9to5mac-Prefix.pch */,
+			);
+			name = 9to5mac;
+			path = Magazine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* 9to5mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477DE7A21D855BA1F4EBD94D /* Build configuration list for PBXNativeTarget "9to5mac" */;
+			buildPhases = (
+				F6BE306E6A9E42DE559F6EDC /* Sources */,
+				A82E6F678DA6193022955957 /* Frameworks */,
+				7414EC6B391964FAEC8B0E90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 9to5mac;
+			productName = Magazine;
+			productReference = F5BF48AA40CAD7891EB709FC /* 9to5mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC844ABCCFC0D132D087C1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = A7492CCDE30BE8F54F16B52E /* Build configuration list for PBXProject "9to5mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48372699EE1A572F57F7CBA1;
+			productRefGroup = 1DEFA2DBDC9661815A95F2D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* 9to5mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7414EC6B391964FAEC8B0E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939C87613E17972FBDE4F0FB /* NewsstandIcon.png in Resources */,
+				7F3970CC05EE55E065404AE8 /* Default-568h@2x.png in Resources */,
+				72C991C081CBB603D61387FA /* Icon.png in Resources */,
+				859BE4C0D58154CDFABE0063 /* Icon@2x.png in Resources */,
+				0FF840FDE024672504E1CE8B /* Icon-72.png in Resources */,
+				917937920607178F9116DA1D /* Icon-72@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BE306E6A9E42DE559F6EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD013AC5FA787F6884177DBE /* main.m in Sources */,
+				7EE7F5AABE8265E69D079D08 /* AppDelegate.m in Sources */,
+				F5BA323F5A078156FD6FAA05 /* Article.m in Sources */,
+				785BEBC44644A353D9505168 /* FeedParser.m in Sources */,
+				A6F64CDD686B49C6D1D282A1 /* ImageLoader.m in Sources */,
+				6C9494EC174C88B2B5867336 /* ArticleStore.m in Sources */,
+				6ACC78C05E8D47B0B2D1EFD4 /* Settings.m in Sources */,
+				A54489419C0B1AEB59029C7D /* ArticleLoader.m in Sources */,
+				BE75E98754A2F4B5FA7E5CF8 /* BrowserViewController.m in Sources */,
+				68996EC200301F9BB44F366A /* ArticleViewController.m in Sources */,
+				7E1A46280EFEF58BDB4B053D /* ArticleCell.m in Sources */,
+				B9D6C3C2384B635FCFFCC858 /* ArticleListViewController.m in Sources */,
+				72B4DAE9126E6EAE7171ABFA /* ArticlesViewController.m in Sources */,
+				1BDAEDB8B94C2D114BDD3DFB /* SearchViewController.m in Sources */,
+				F4F8F61CDE618848EB311886 /* SavedViewController.m in Sources */,
+				CA92CE9028CCE9DE7D9952F9 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01FE200FDC5D2869057F5A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CED1367D0DCAADC7431BBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = " ";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = " ";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magazine/9to5mac-Prefix.pch";
+				INFOPLIST_FILE = Magazine/Info.plist;
+				PRODUCT_NAME = 9to5mac;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		444DA0D52182062717114049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A25F4C83776EC0189476E4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = " ";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = " ";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Magazine/9to5mac-Prefix.pch";
+				INFOPLIST_FILE = Magazine/Info.plist;
+				PRODUCT_NAME = 9to5mac;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		477DE7A21D855BA1F4EBD94D /* Build configuration list for PBXNativeTarget "9to5mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CED1367D0DCAADC7431BBC9 /* Debug */,
+				A25F4C83776EC0189476E4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7492CCDE30BE8F54F16B52E /* Build configuration list for PBXProject "9to5mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444DA0D52182062717114049 /* Debug */,
+				01FE200FDC5D2869057F5A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC844ABCCFC0D132D087C1C /* Project object */;
+}
